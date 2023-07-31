@@ -42,8 +42,8 @@ The analysis performed looks at different machine learning models to predict hig
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 1: Logistic Regression with Original Data
+  * Results: This model is strong, and does better with low risk than high risk predictions
 
 |   | precision  | recall  | F1 score  | support  |
 |---|---|---|---|---|
@@ -54,8 +54,8 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 | weighted avg | 0.99  | 0.9  | 0.99  | 15508  |
 
 
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 2: Logistic Regression with Resampled Data
+  * Results: This model improves on the first with a better F1 score
 
 
 |   | precision  | recall  | F1 score  | support  |
@@ -72,4 +72,4 @@ Summarize the results of the machine learning models, and include a recommendati
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-If you do not recommend any of the models, please justify your reasoning.
+I recommend using the second model in this case.
