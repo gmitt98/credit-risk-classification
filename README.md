@@ -20,18 +20,23 @@ The analysis performed looks at different machine learning models to predict hig
 
 * *Purpose*: develop models that can predict if a loan is likely to be high-risk or not
 * *Data*: we used data that contained over 77k samples with the following information:
-    ** loan size
-    ** interest rate
-    ** borrower income
-    ** debt to income ratio
-    ** number of accounts
-    ** derogatory marks
-    ** total debt
-    ** loan status
+    * loan size
+    * interest rate
+    * borrower income
+    * debt to income ratio
+    * number of accounts
+    * derogatory marks
+    * total debt
+    * loan status
 * *Target*: We were trying to predict loan status, which is 0 for good and 1 for bad
 * *Process*: We split the data into two data frame, and fed the data into sklearn modules then evaluated the outcome. We resampled the data and modeled again to see what changed.
 * *Methods*: We used the following methods:
-    ** 
+    * fit a logistic regression model with the *original data* split 80/20 train/test
+    * evaluate this model
+
+    * fit a logistic regression model with *resampled training data* with even data points between labels
+    * evaluate this model
+    * compare to the first model
 
 ## Results
 
@@ -40,11 +45,13 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|   | precision  | recall  | F1 score  | support  |
+|---|---|---|---|---|---|
+| 0 |   |   |   |   |   |
+| 1 |   |   |   |   |   |
+| accuracy |   |   |   |   |   |
+| macro avg |   |   |   |   |   |
+| weighted avg |   |   |   |   |   |
 
 
 * Machine Learning Model 2:
