@@ -45,7 +45,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
-|   | precision  | recall  | F1 score  | support  |
+|  x | precision  | recall  | F1 score  | support  |
 |---|---|---|---|---|---|
 | 0 |   |   |   |   |   |
 | 1 |   |   |   |   |   |
