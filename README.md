@@ -68,8 +68,8 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+* The second model seems to perform best, as evaluated by the F1 score
+* For this business, it would be more important to accurately flag high risk loans than low risk ones, as they are potentially costly to miss
+* Even though the precision drops slightly (0.86 to 0.85) in the second model for indentifying high risk loans in the test data, the overall F1 score and the recall is much higher so I would expect better long run performance.
 
 I recommend using the second model in this case.
