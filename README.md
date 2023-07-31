@@ -46,12 +46,12 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
 |  x | precision  | recall  | F1 score  | support  |
-|---|---|---|---|---|---|
-| 0 |   |   |   |   |   |
-| 1 |   |   |   |   |   |
-| accuracy |   |   |   |   |   |
-| macro avg |   |   |   |   |   |
-| weighted avg |   |   |   |   |   |
+|---|---|---|---|---|
+| 0 |   |   |   |   |
+| 1 |   |   |   |   |
+| accuracy |   |   |   |   |
+| macro avg |   |   |   |   |
+| weighted avg |   |   |   |   |
 
 
 * Machine Learning Model 2:
