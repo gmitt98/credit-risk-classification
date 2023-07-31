@@ -45,24 +45,26 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
-|  x | precision  | recall  | F1 score  | support  |
+|   | precision  | recall  | F1 score  | support  |
 |---|---|---|---|---|
-| 0 |   |   |   |   |
-| 1 |   |   |   |   |
-| accuracy |   |   |   |   |
-| macro avg |   |   |   |   |
-| weighted avg |   |   |   |   |
+| label 0 | 1.00  | 1.00  | 1.00  | 15001  |
+| label 1 | 0.86  | 0.91  | 0.88  | 507  |
+| accuracy |   |   | 0.99  | 15508  |
+| macro avg | 0.93  | 0.95  | 0.94  | 15508  |
+| weighted avg | 0.99  | 0.9  | 0.99  | 15508  |
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 
-| 1  |   |   |   |   |
+|   | precision  | recall  | F1 score  | support  |
 |---|---|---|---|---|
-|  1 |   |   |   |   |
-| 1  |   |   |   |   |
-| 1  |   |   |   |   |
+| label 0 | 1.00  | 0.99  | 1.00  | 15001  |
+| label 1 | 0.85  | 0.99  | 0.92  | 507  |
+| accuracy |   |   | 0.99  | 15508  |
+| macro avg | 0.93  | 0.99  | 0.96  | 15508  |
+| weighted avg | 1.00  | 0.99  | 0.99  | 15508  |
 
 ## Summary
 
