@@ -12,8 +12,8 @@ The analysis performed looks at different machine learning models to predict hig
 - Numpy
 - SciKitLearn
 
+
 # Module 12 Report
-- 
 
 ## Overview of the Analysis
 
