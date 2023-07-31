@@ -58,11 +58,11 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 
-|   |   |   |   |   |
+| 1  |   |   |   |   |
 |---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|  1 |   |   |   |   |
+| 1  |   |   |   |   |
+| 1  |   |   |   |   |
 
 ## Summary
 
